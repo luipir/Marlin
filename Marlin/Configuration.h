@@ -424,7 +424,9 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 // pos for pen
 //#define MANUAL_Z_HOME_POS 397 // For delta: Distance between nozzle and print surface after homing.
 // pos for e3d hotend
-#define MANUAL_Z_HOME_POS 379.1 // For delta: Distance between nozzle and print surface after homing.
+//#define MANUAL_Z_HOME_POS 379.1 // For delta: Distance between nozzle and print surface after homing.
+// pos for e3d hotend plus mirror
+#define MANUAL_Z_HOME_POS 374.9 // For delta: Distance between nozzle and print surface after homing.
 
 //// MOVEMENT SETTINGS
 #define NUM_AXIS 4 // The axis order in all axis related arrays is X, Y, Z, E
