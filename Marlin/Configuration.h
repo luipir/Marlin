@@ -108,7 +108,7 @@
 #define DELTA_DIAGONAL_ROD 250.0 // mm
 
 // Horizontal offset from middle of printer to smooth rod center.
-#define DELTA_SMOOTH_ROD_OFFSET 179.4 // mm
+#define DELTA_SMOOTH_ROD_OFFSET 175.9 // mm
 
 // Horizontal offset of the universal joints on the end effector.
 #define DELTA_EFFECTOR_OFFSET 33.0 // mm
@@ -426,7 +426,9 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 // pos for e3d hotend
 //#define MANUAL_Z_HOME_POS 379.1 // For delta: Distance between nozzle and print surface after homing.
 // pos for e3d hotend plus mirror
-#define MANUAL_Z_HOME_POS 374.9 // For delta: Distance between nozzle and print surface after homing.
+//#define MANUAL_Z_HOME_POS 374.9 // For delta: Distance between nozzle and print surface after homing.
+// pos for e3d hotend upper position plus mirror
+#define MANUAL_Z_HOME_POS 424.2 // For delta: Distance between nozzle and print surface after homing.
 
 //// MOVEMENT SETTINGS
 #define NUM_AXIS 4 // The axis order in all axis related arrays is X, Y, Z, E
